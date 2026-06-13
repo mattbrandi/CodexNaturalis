@@ -10,9 +10,9 @@
 
 
 <h4 align="center">A distributed version of the game Codex Naturalis  made by <br><br>
-<a href="https://github.com/TommasoCrippa-Polimi" target="_blank">Tommaso Crippa</a><br><br>
+<a href="https://github.com/Crippius" target="_blank">Tommaso Crippa</a><br><br>
 <a href="https://github.com/AlessandroDiMaria-polimi" target="_blank">Alessandro Di Maria</a><br><br>
-<a href="https://github.com/RodrigoAlmandozFranco-polimi" target="_blank">Rodrigo Almandoz Franco</a> <br><br>
+<a href="https://github.com/RodrigoAlmandozFranco" target="_blank">Rodrigo Almandoz Franco</a> <br><br>
 <a href="https://github.com/mattbrandi" target="_blank">Mattia Brandi</a></h4>
 
 
@@ -35,17 +35,17 @@ Requirements (<a href="https://github.com/Crippius/CodexNaturalis/blob/main/docu
 
 
 ## Game Screenshots
-<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/login.png" alt="login" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/main/deliverables/screenshots/login.png" alt="login" width="600" heigth="300" float="center">
 
-<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/play.png" alt="play" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/main/deliverables/screenshots/play.png" alt="play" width="600" heigth="300" float="center">
 
-<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/scoreboard.png" alt="scoreboard" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/main/deliverables/screenshots/scoreboard.png" alt="scoreboard" width="600" heigth="300" float="center">
 
-<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/select.png" alt="select" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/main/deliverables/screenshots/select.png" alt="select" width="600" heigth="300" float="center">
 
-<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/board.png" alt="board" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/main/deliverables/screenshots/board.png" alt="board" width="600" heigth="300" float="center">
 
-<img src="https://aw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/zoom.png" alt="zoom" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/main/deliverables/screenshots/zoom.png" alt="zoom" width="600" heigth="300" float="center">
 
 
 ## How to Play
