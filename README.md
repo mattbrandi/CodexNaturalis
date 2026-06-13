@@ -52,7 +52,7 @@ Requirements (<a href="https://github.com/Crippius/CodexNaturalis/blob/main/docu
 
 **Prerequisites:**
 - Java JDK 21 or newer must be installed.
-- Dowload the 'codexNaturalis.jar'
+- Download the 'codexNaturalis.jar'
 
 ### Server Parameters
 
