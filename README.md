@@ -2,20 +2,18 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.craniocreations.it/prodotto/codex-naturalis"><img src=https://azure.wgp-cdn.co.uk/app-table-top-gaming/posts/CODEX_BoardgameShot-Mateusz-Zajda-1-1-1024x681.jpg?&format=webp&webp.quality=40&scale=both" alt="Codex Naturalis" width="700"></a>
+  <a href="https://www.craniocreations.it/prodotto/codex-naturalis"><img src="https://azure.wgp-cdn.co.uk/app-table-top-gaming/posts/CODEX_BoardgameShot-Mateusz-Zajda-1-1-1024x681.jpg?&format=webp&webp.quality=40&scale=both" alt="Codex Naturalis" width="700"></a>
   <br>
   Progetto Finale di Ingegneria del Software<br>
 </h1>
 
 
 
-<h4 align="center">A distribuited version of the game Codex Naturalis  made by <br><br>
+<h4 align="center">A distributed version of the game Codex Naturalis  made by <br><br>
 <a href="https://github.com/TommasoCrippa-Polimi" target="_blank">Tommaso Crippa</a><br><br>
 <a href="https://github.com/AlessandroDiMaria-polimi" target="_blank">Alessandro Di Maria</a><br><br>
 <a href="https://github.com/RodrigoAlmandozFranco-polimi" target="_blank">Rodrigo Almandoz Franco</a> <br><br>
-<a href="https://github.com/MattiaBrandi-polimi" target="_blank">Mattia Brandi</a></h4>
-
-
+<a href="https://github.com/mattbrandi" target="_blank">Mattia Brandi</a></h4>
 
 
 
@@ -24,33 +22,37 @@ Here are the features we have added to our implementation of the board game [Cod
 
 | Feature        | Implemented        |
 |:---------------|:-------------------|
-| Complete Rules | ✅                  |
-| Socket         | ✅ |
-| RMI            | ✅ |
-| TUI            | ✅ |
-| GUI            | ✅ |
-| Chat           | ✅ |
-| Persistence    | ✅                |
+| Complete Rules | ✅                 |
+| Socket         | ✅                 |
+| RMI            | ✅                 |
+| TUI            | ✅                 |
+| GUI            | ✅                 |
+| Chat           | ✅                 |
+| Persistence    | ✅                 |
 
-Rulebook (<a href="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/documents/regolamento.pdf">ITA</a> | <a href="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/documents/rulebook.pdf">ENG</a>) <br>
-Requirements (<a href="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/documents/requirements.pdf">ITA</a>)<br>
+Rulebook (<a href="https://github.com/Crippius/CodexNaturalis/blob/main/documents/regolamento.pdf">ITA</a> | <a href="https://github.com/Crippius/CodexNaturalis/blob/main/documents/rulebook.pdf">ENG</a>) <br>
+Requirements (<a href="https://github.com/Crippius/CodexNaturalis/blob/main/documents/requirements.pdf">ITA</a>)<br>
 
 
 ## Game Screenshots
-<img src="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/deliverables/screenshots/login.png" alt="login" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/login.png" alt="login" width="600" heigth="300" float="center">
 
-<img src="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/deliverables/screenshots/play.png" alt="play" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/play.png" alt="play" width="600" heigth="300" float="center">
 
-<img src="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/deliverables/screenshots/scoreboard.png" alt="scoreboard" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/scoreboard.png" alt="scoreboard" width="600" heigth="300" float="center">
 
-<img src="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/deliverables/screenshots/select.png" alt="select" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/select.png" alt="select" width="600" heigth="300" float="center">
 
-<img src="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/deliverables/screenshots/board.png" alt="board" width="600" heigth="300" float="center">
+<img src="https://raw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/board.png" alt="board" width="600" heigth="300" float="center">
 
-<img src="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/main/deliverables/screenshots/zoom.png" alt="zoom" width="600" heigth="300" float="center">
+<img src="https://aw.githubusercontent.com/Crippius/CodexNaturalis/blob/main/deliverables/screenshots/zoom.png" alt="zoom" width="600" heigth="300" float="center">
 
 
 ## How to Play
+
+**Prerequisites:**
+- Java JDK 21 or newer must be installed.
+- Dowload the 'codexNaturalis.jar'
 
 ### Server Parameters
 
@@ -63,7 +65,22 @@ Requirements (<a href="https://github.com/TommasoCrippa-Polimi/IS24-AM42/blob/ma
 - `-t` or `--tui`: (Optional) Use the Text User Interface (TUI) instead of the Graphical User Interface (GUI).
 - `-r` or `--rmi`: (Optional) Use RMI connection instead of TCP connection.
 - `-p` or `--port`: Set the port of the server.
-- `-a` or `--ip`: Set the address of the server.
+- `-a` or `--ip`: (Optional) Set the address of the server. The default is localhost.
+
+### Example
+- Server: `java -jar codexNaturalis.jar --server --port 5000`
+- Client1: `java -jar codexNaturalis.jar --client --port 5000 --rmi`
+- Client2: `java -jar codexNaturalis.jar --client --port 5001 --tui`
+
+## Technologies Used
+- **Java 21** — Main programming language and runtime environment.
+- **Maven** — Build automation and dependency management tool.
+- **JUnit 5** — Framework for unit testing.
+- **Mockito** — Library for mocking objects in tests.
+- **Gson** — Library for JSON serialization and deserialization.
+- **RMI (Remote Method Invocation)** — For distributed communication between server and client.
+- **Socket Programming TCP/IP** — For network communication.
+- **JavaFX 21** — For building the graphical user interface (GUI).
 
 
 ## License
